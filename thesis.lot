@@ -1,0 +1,22 @@
+\select@language {english}
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces TLM Configuration}}{37}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Address Range of each TLM}}{37}{table.5.2}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Data Cache Configuration}}{38}{table.5.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces DDR Configuration}}{38}{table.5.4}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Execution times (in nano-seconds) for a block size of one cache line and a time interval of 1000 nsec}}{42}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Execution times (in nano-seconds) for a block size of four cache lines and a time interval of 500 nsec}}{42}{table.6.2}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Execution times (in nano-seconds) for a block size of sixteen cache lines and a time interval of 200 nsec}}{45}{table.6.3}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Blackscholes: execution times (in nano-seconds) for varying block sizes and time intervals}}{48}{table.6.4}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Canneal: execution times (in nano-seconds) for varying block sizes and time intervals}}{48}{table.6.5}
+\contentsline {table}{\numberline {6.6}{\ignorespaces Swaptions: execution times (in nano-seconds) for varying block sizes and time intervals}}{49}{table.6.6}
+\contentsline {table}{\numberline {6.7}{\ignorespaces Execution times for different data placement mechanisms}}{52}{table.6.7}
+\contentsline {table}{\numberline {6.8}{\ignorespaces Execution times for different data placement mechanisms}}{55}{table.6.8}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

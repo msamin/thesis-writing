@@ -1,0 +1,39 @@
+\select@language {english}
+\select@language {english}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Power Wall~\cite {chipmulticore}}}{10}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Memory Wall~\cite {hennessy}}}{11}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Invasic Architecture~\cite {iNetworkAdapter}}}{13}{figure.1.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A Tile}}{16}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A mesh-connected distributed global memory system with 16 processors~\cite {dynamicPageMigration}.}}{20}{figure.2.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Our architecture.}}{22}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A tile depicting local accesses to a TLM.}}{23}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A tile depicting remote accesses to a TLM.}}{23}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Overview and connections of the modules used.}}{24}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Trace File and MMU}}{25}{figure.3.5}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Intra-Tile Design View in Synopsys Platform Architect}}{29}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Inter-Tile Design View in Synopsys Platform Architect}}{30}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Messages exchanged between the Cache Stats, TLM and Central Stats Modules.}}{31}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Process to determine the TLM Block to migrate and the tile to migrate the TLM Block to.}}{32}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Triggering Migration Commands}}{33}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Flowchart illustrating how to determine a local and remote TLM access.}}{34}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Flowchart depicting how the free address space in the TLM is calculated.}}{35}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Flowchart showing how the free address space in TLM is calculated if the TLM is partially full.}}{36}{figure.4.8}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Bar chart comparing the execution times for block size of one cache line and time interval of 1000 nsec}}{43}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Bar chart comparing the execution times for block size of four cache lines and time interval of 500 nsec}}{44}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Bar chart comparing the execution times for block size of sixteen cache lines and time interval of 200 nsec}}{46}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Graph showing how the execution time varies with varying time intervals for blackscholes}}{47}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Graph showing how the execution time varies with varying block sizes for blackscholes}}{49}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Graph showing how the execution time varies with varying time intervals for canneal}}{50}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Graph showing how the execution time varies with varying block sizes for canneal}}{51}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Graph showing how the execution time varies with varying time intervals for swaptions}}{52}{figure.6.8}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Graph showing how the execution time varies with varying block sizes for swaptions}}{53}{figure.6.9}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Bar chart showing the execution time for First Touch DDM ON and OFF and Most Accessed}}{54}{figure.6.10}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Bar chart showing the execution time for First Touch DDM ON and OFF and Most Accessed}}{55}{figure.6.11}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

@@ -1,0 +1,78 @@
+\select@language {english}
+\select@language {english}
+\contentsline {chapter}{\nonumberline List of Figures}{7}{chapter*.3}
+\contentsline {chapter}{\nonumberline List of Tables}{9}{chapter*.4}
+\contentsline {chapter}{\numberline {1}Introduction}{10}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{10}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Power Wall}{10}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Memory Wall}{11}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Problem}{12}{section.1.2}
+\contentsline {section}{\numberline {1.3}Goals of Thesis}{12}{section.1.3}
+\contentsline {section}{\numberline {1.4}Approach}{13}{section.1.4}
+\contentsline {section}{\numberline {1.5}Outline}{14}{section.1.5}
+\contentsline {chapter}{\numberline {2}Background and Related Work}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Basic Concepts}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Tile}{15}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Related Work}{16}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Data Placement/Migration on Caches}{16}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Task/Thread Placement}{17}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Data and Thread Migration}{18}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Data Placement on TLM}{18}{subsection.2.2.4}
+\contentsline {subsubsection}{\nonumberline Static Data Placement on TLM}{18}{section*.5}
+\contentsline {subsubsection}{\nonumberline Dynamic Data Placement and Migration on TLM}{19}{section*.6}
+\contentsline {chapter}{\numberline {3}Concept and System Architecture}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Concept}{21}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Memory Accesses}{21}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Goal}{24}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}System Design}{24}{section.3.2}
+\contentsline {section}{\numberline {3.3}Modules Directly Used in the System for Implementing Thesis}{25}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Trace File}{25}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Memory Management Unit}{26}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Cache Stats Module}{27}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Tile Local Memory Module}{27}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Central Stats Module}{27}{subsection.3.3.5}
+\contentsline {chapter}{\numberline {4}Implementation}{28}{chapter.4}
+\contentsline {section}{\numberline {4.1}Language and Tools}{28}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}SystemC}{28}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Synopsys Platform Architect}{28}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Dynamic Data Migration Process Mechanism}{29}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Triggering Migrations}{31}{subsection.4.2.1}
+\contentsline {subsubsection}{\nonumberline Which TLM Block to Migrate and Tile to Migrate it to?}{31}{section*.7}
+\contentsline {subsubsection}{\nonumberline When to Trigger Migrations?}{31}{section*.8}
+\contentsline {subsubsection}{\nonumberline Migrate Command}{33}{section*.9}
+\contentsline {subsection}{\numberline {4.2.2}Local and Remote Accesses to a TLM Block}{33}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Free Address Space in TLM}{34}{subsection.4.2.3}
+\contentsline {subsubsection}{\nonumberline TLM Empty}{34}{section*.10}
+\contentsline {subsubsection}{\nonumberline TLM Partially Full}{35}{section*.11}
+\contentsline {subsubsection}{\nonumberline TLM Full}{35}{section*.12}
+\contentsline {section}{\numberline {4.3}Usability Improvement}{35}{section.4.3}
+\contentsline {section}{\numberline {4.4}Limitations}{36}{section.4.4}
+\contentsline {chapter}{\numberline {5}Experimental Setup}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Configuration of Component Modules}{37}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Configuration of TLM}{37}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Configuration of Data Caches}{38}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Configuration of DDR}{38}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}The Gem5 Simulator}{38}{section.5.2}
+\contentsline {section}{\numberline {5.3}Benchmarks}{39}{section.5.3}
+\contentsline {section}{\numberline {5.4}Writing Shell Script}{39}{section.5.4}
+\contentsline {section}{\numberline {5.5}\textit {Nice} Command}{39}{section.5.5}
+\contentsline {section}{\numberline {5.6}Output Files}{39}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Screen Log File}{39}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Time Log File}{40}{subsection.5.6.2}
+\contentsline {section}{\numberline {5.7}System Specifications}{40}{section.5.7}
+\contentsline {chapter}{\numberline {6}Evaluation}{41}{chapter.6}
+\contentsline {section}{\numberline {6.1}Dynamic Data Migration vs First Touch vs No Data Placement}{41}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Block Size of One Cache Line and Time Interval of 1000 nsec}{41}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Block Size of Four Cache Lines and Time Interval of 500 nsec}{42}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Block Size of Sixteen Cache Lines and Time Interval of 200 nsec}{45}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Performance of Benchmarks With Varying Block Sizes and Time Intervals}{45}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Blackscholes}{45}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Canneal}{48}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Swaptions}{48}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Comparison of First Touch DDM ON with First Touch DDM OFF with DDM OFF Most Accessed}{51}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Blackscholes}{51}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Canneal}{52}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {7}Summary and Future Work}{56}{chapter.7}
+\contentsline {section}{\numberline {7.1}Summary}{56}{section.7.1}
+\contentsline {section}{\numberline {7.2}Future Work}{57}{section.7.2}
+\contentsline {chapter}{\nonumberline Bibliography}{59}{chapter*.13}

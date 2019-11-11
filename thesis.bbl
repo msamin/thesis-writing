@@ -1,0 +1,169 @@
+\begin{thebibliography}{10}
+
+\bibitem{systemc}
+Systemc.
+\newblock \url{http://accellera.org}.
+
+
+
+\bibitem{chipmulticore}
+S.~Wallentowitz A.~Herkersdorf and T.~Wild.
+\newblock Chip multi-core processors.
+
+\bibitem{lispaper}
+Thomas~Wild Akshay~Srivatsa, Sven~Rheindt and Andreas Herkersdorf.
+\newblock Region based cache coherence for tiled mpsocs.
+\newblock System-on-Chip Conference (SOCC), 2017 30th IEEE International, Sept.
+  2017.
+
+\bibitem{cacheDataPlacement1}
+D.~Burger C.~Kim and S.~W. Keckler.
+\newblock An adaptive, non-uniform cache structure for wire-delay dominated
+  on-chip caches.
+\newblock International Conference on Architectural Support for Programming
+  Languages and Operating Systems, 2002.
+
+\bibitem{tlm}
+L.~Cai and D.~Gajski.
+\newblock Transaction level modeling: An overview.
+\newblock page 19–24. proceedings of the Int. Conference on HW/SW Codesign
+  and System Synthesis (CODES-ISSS), Oct. 2003.
+
+\bibitem{tlb}
+D.~W. Clark and J.S Esner.
+\newblock Performance of the vax-11/780 translation buffer: Simulation and
+  measurements.
+\newblock volume~3, pages 31--62. ACM Trans. Comput. Syst, Feb. 1985.
+
+\bibitem{threadPlacement4}
+R.~Azimi D.~Tam and M.~Stumm.
+\newblock Thread clustering: Sharing-aware scheduling on smp-cmp-smt
+  multiprocessors.
+\newblock Proceedings of the 2nd ACM SIGOPS/EuroSys European Conference on
+  Computer Systems, 2007.
+
+\bibitem{threadPlacement1}
+P.~Navaux E.~Rodrigues, F.~Madruga and J.~Panetta.
+\newblock Multi-core aware process mapping and its impact on communication
+  overhead of parallel applications.
+\newblock IEEE Symposium on Computers and Communications, 2009.
+
+\bibitem{cacheDataPlacement2}
+C.~Fensch and M.~Cintra.
+\newblock An os-based alternative to full hardware coherence on tiled cmps.
+\newblock International Symposium on High Performance Computer Architecture,
+  2008.
+
+\bibitem{hennessy}
+J.~Hennessy and D.~Patterson.
+\newblock Computer architecture: A quantitative approach, 1996.
+
+\bibitem{nice}
+IBM.
+\newblock nice - run a command at a different priority.
+\newblock
+  \url{https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.bpxa500/nice.htm}.
+
+\bibitem{ankitThesis}
+Ankit Kalbande.
+\newblock Hardware support for configurable cache-coherency in tiled many-core
+  architectures, 2015.
+
+\bibitem{threadPlacement2}
+R.~Koppler.
+\newblock Geometry-aided rectilinear partitioning of unstructured meshes.
+\newblock Lecture Notes in Computer Science, 1999.
+
+\bibitem{threadPlacement3}
+H.U. Heiss F.L Madrunga E. R. Rodrigues M.A.Y.~Alves M.~Diener, J.~Schneider
+  and P.O.A Navaux.
+\newblock Evaluating thread placement based on memory access patterns for
+  multi-core processors.
+\newblock 12th IEEE International Conference on High Performance Computing and
+  Communications, 2010.
+
+\bibitem{trace}
+E.~Fatehi P.~Gratz M.~Gebhart, J.~Hestness and S.~W. Keckler.
+\newblock Running parsec 2.1 on m5, October 2009.
+
+\bibitem{memorywall}
+Philip Machanick.
+\newblock Approaches to addressing the memory wall.
+
+\bibitem{datathreadPlacement}
+P.~Tsai N.~Beckmann and D.~Sanchez.
+\newblock Scaling distributed cache hierarchies through computation and data
+  co-scheduling.
+\newblock Proceedings of the 21st International Symposium on High Performance
+  Computer Architecture (HPCA), 2015.
+
+\bibitem{cacheDataPlacement4}
+B.~Falsafi N.~Hardavellas, M.~Ferdman and A.~Ailamaki.
+\newblock Reactive nuca: Near-optimal block placement and replication in
+  distributed caches.
+\newblock International Symposium on Computer Architecture, 2009.
+
+\bibitem{gem5}
+Gabriel Black Steven K. Reinhardt Ali Saidi Arkaprava Basu Joel Hestness Derek
+  R. Hower Tushar Krishna Somayeh Sardashti Rathijit Sen Korey Sewell Muhammad
+  Shoaib Nilay Vaish Mark D.~Hill Nathan~Binkert, Bradford~Beckmann and
+  David~A. Wood.
+\newblock The gem5 simulator.
+\newblock volume 39 Issue 2, pages 1--7. ACM SIGARCH Computer Architecture
+  News, May 2011.
+
+\bibitem{cacheDataPlacement6}
+F.~Hijaz Q.~Shi and O.~Khan.
+\newblock Towards efficient dynamic data placement in noc-based multicores.
+\newblock IEEE 31st International Conference on Computer Design (ICCD), 2013.
+
+\bibitem{iNetworkAdapter}
+Sven Rheindt.
+\newblock inetworkadapter documenation, 2016.
+
+\bibitem{akshay}
+Srivatsa~Akshay Sateesh.
+\newblock High level modelling and simulation of region based coherence in
+  multi-core systems, November 2015.
+
+\bibitem{dynamicPageMigration}
+Christoph Scheurich and Michel Dubois.
+\newblock Dynamic page migration in multiprocessors with distributed global
+  memory.
+\newblock IEEE Transactions on Computers, 1989.
+
+\bibitem{dynamicpMigration}
+Christoph Scheurich and Michel Dubois.
+\newblock Dynamic memory allocation in a mesh-connected multiprocessor.
+\newblock pages 302--312. Proc. the 20th Hawaii Int. Conf. Syst. Sci., Jan.
+  1987.
+
+\bibitem{sven}
+Akshay Srivatsa Thomas~Wild Sven~Rheindt, Andreas~Schenk and Andreas
+  Herkersdorf.
+\newblock Cacao: Complex and compositional atomic operations for noc-based
+  manycore platforms.
+\newblock In {\em ARCS 2018 - 31st International Conference on Architecture of
+  Computing Systems}, Braunschweig, Germany, 2018.
+
+\bibitem{synopsys}
+Synopsys.
+\newblock Soc architecture analysis and optimization for performance and power.
+\newblock
+  \url{https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html}.
+
+\bibitem{invasive}
+J\"urgen Teich, J\"org Henkel, Andreas Herkersdorf, Doris Schmitt-Landsiedel,
+  Wolfgang Schr\"oder-Preikschat, and Gregor Snelting.
+\newblock {Invasive Computing: An Overview}.
+\newblock In M.~H\"ubner and J.~Becker, editors, {\em Multiprocessor
+  System-on-Chip -- Hardware Design and Tool Integration}, pages 241--268.
+  Springer, Berlin, Heidelberg, 2011.
+
+\bibitem{cacheDataPlacement3}
+M.~Zhang and K.~Asanovic.
+\newblock Victim replication: Maximizing capacity while hiding wire delay in
+  tiled chip multiprocessors.
+\newblock International Symposium on Computer Architecture, 2005.
+
+\end{thebibliography}

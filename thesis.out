@@ -1,0 +1,68 @@
+\BOOKMARK [0][-]{chapter*.3}{List of Figures}{}% 1
+\BOOKMARK [0][-]{chapter*.4}{List of Tables}{}% 2
+\BOOKMARK [0][-]{chapter.1}{1 Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{1.1 Motivation}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 Power Wall}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.2}{1.1.2 Memory Wall}{section.1.1}% 6
+\BOOKMARK [1][-]{section.1.2}{1.2 Problem}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{1.3 Goals of Thesis}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.4}{1.4 Approach}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.5}{1.5 Outline}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{2 Background and Related Work}{}% 11
+\BOOKMARK [1][-]{section.2.1}{2.1 Basic Concepts}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Tile}{section.2.1}% 13
+\BOOKMARK [1][-]{section.2.2}{2.2 Related Work}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Data Placement/Migration on Caches}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Task/Thread Placement}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Data and Thread Migration}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 Data Placement on TLM}{section.2.2}% 18
+\BOOKMARK [0][-]{chapter.3}{3 Concept and System Architecture}{}% 19
+\BOOKMARK [1][-]{section.3.1}{3.1 Concept}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Memory Accesses}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Goal}{section.3.1}% 22
+\BOOKMARK [1][-]{section.3.2}{3.2 System Design}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.3}{3.3 Modules Directly Used in the System for Implementing Thesis}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Trace File}{section.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Memory Management Unit}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Cache Stats Module}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 Tile Local Memory Module}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.5}{3.3.5 Central Stats Module}{section.3.3}% 29
+\BOOKMARK [0][-]{chapter.4}{4 Implementation}{}% 30
+\BOOKMARK [1][-]{section.4.1}{4.1 Language and Tools}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 SystemC}{section.4.1}% 32
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Synopsys Platform Architect}{section.4.1}% 33
+\BOOKMARK [1][-]{section.4.2}{4.2 Dynamic Data Migration Process Mechanism}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Triggering Migrations}{section.4.2}% 35
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Local and Remote Accesses to a TLM Block}{section.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Free Address Space in TLM}{section.4.2}% 37
+\BOOKMARK [1][-]{section.4.3}{4.3 Usability Improvement}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.4}{4.4 Limitations}{chapter.4}% 39
+\BOOKMARK [0][-]{chapter.5}{5 Experimental Setup}{}% 40
+\BOOKMARK [1][-]{section.5.1}{5.1 Configuration of Component Modules}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Configuration of TLM}{section.5.1}% 42
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Configuration of Data Caches}{section.5.1}% 43
+\BOOKMARK [2][-]{subsection.5.1.3}{5.1.3 Configuration of DDR}{section.5.1}% 44
+\BOOKMARK [1][-]{section.5.2}{5.2 The Gem5 Simulator}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.3}{5.3 Benchmarks}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.4}{5.4 Writing Shell Script}{chapter.5}% 47
+\BOOKMARK [1][-]{section.5.5}{5.5 Nice Command}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.6}{5.6 Output Files}{chapter.5}% 49
+\BOOKMARK [2][-]{subsection.5.6.1}{5.6.1 Screen Log File}{section.5.6}% 50
+\BOOKMARK [2][-]{subsection.5.6.2}{5.6.2 Time Log File}{section.5.6}% 51
+\BOOKMARK [1][-]{section.5.7}{5.7 System Specifications}{chapter.5}% 52
+\BOOKMARK [0][-]{chapter.6}{6 Evaluation}{}% 53
+\BOOKMARK [1][-]{section.6.1}{6.1 Dynamic Data Migration vs First Touch vs No Data Placement}{chapter.6}% 54
+\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Block Size of One Cache Line and Time Interval of 1000 nsec}{section.6.1}% 55
+\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 Block Size of Four Cache Lines and Time Interval of 500 nsec}{section.6.1}% 56
+\BOOKMARK [2][-]{subsection.6.1.3}{6.1.3 Block Size of Sixteen Cache Lines and Time Interval of 200 nsec}{section.6.1}% 57
+\BOOKMARK [1][-]{section.6.2}{6.2 Performance of Benchmarks With Varying Block Sizes and Time Intervals}{chapter.6}% 58
+\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Blackscholes}{section.6.2}% 59
+\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 Canneal}{section.6.2}% 60
+\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Swaptions}{section.6.2}% 61
+\BOOKMARK [1][-]{section.6.3}{6.3 Comparison of First Touch DDM ON with First Touch DDM OFF with DDM OFF Most Accessed}{chapter.6}% 62
+\BOOKMARK [2][-]{subsection.6.3.1}{6.3.1 Blackscholes}{section.6.3}% 63
+\BOOKMARK [2][-]{subsection.6.3.2}{6.3.2 Canneal}{section.6.3}% 64
+\BOOKMARK [0][-]{chapter.7}{7 Summary and Future Work}{}% 65
+\BOOKMARK [1][-]{section.7.1}{7.1 Summary}{chapter.7}% 66
+\BOOKMARK [1][-]{section.7.2}{7.2 Future Work}{chapter.7}% 67
+\BOOKMARK [0][-]{chapter*.13}{Bibliography}{}% 68
